@@ -1,8 +1,4 @@
 <?php 
-$output = '';
-$query 	= file_get_contents('https://fete.nerdline.online/wp-content/plugins/nms-openagenda/_data/events_rgv2.json');
-$data 	= json_decode($query);
-
 $url = 'https://api.zentrale.rausgegangen.de/v2/events/?api_key=******';
 
 //$data1 = array('api_key' => 'ZzriUzE', 'slug' => 'welcome', 'recipient' => 'root@local.host');
